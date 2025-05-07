@@ -1,0 +1,43 @@
+{
+  "countries": [
+    {
+      "name": "France",
+      "description": "Known for the Eiffel Tower, cuisine, and rich culture.",
+      "imageUrl": "https://media.istockphoto.com/id/1436430810/pt/foto/paris-eiffel-tower.jpg?s=612x612&w=0&k=20&c=dIc3FzCSgDz1ZPBjM19HLGqMUND6srvk1wSP3sTHFLA="
+    },
+    {
+      "name": "Japan",
+      "description": "Land of the rising sun, temples, and technology.",
+      "imageUrl": "https://img.freepik.com/fotos-gratis/flores-de-cerejeira-na-primavera-pagode-chureito-e-montanha-fuji-no-japao_335224-213.jpg?semt=ais_hybrid&w=740"
+    },
+    {
+      "name": "Brazil",
+      "description": "Home of the Amazon and vibrant cities like Rio.",
+      "imageUrl": "https://cms-b-assets.familysearch.org/dims4/default/a3b8ea1/2147483647/strip/true/crop/749x500+0+0/resize/1240x828!/quality/90/?url=https%3A%2F%2Ffamilysearch-brightspot.s3.amazonaws.com%2F5b%2F27%2F69ebaad808524e7b1354fc2fda61%2Frio-de-janeiro.jpg"
+    }
+  ],
+  "temples": [
+    {
+      "name": "Angkor Wat",
+      "description": "The largest religious monument in the world, located in Cambodia.",
+      "imageUrl": "https://cdn.britannica.com/49/94449-050-ECB0E7C2/Angkor-Wat-temple-complex-Camb.jpg"
+    },
+    {
+      "name": "Golden Temple",
+      "description": "A spiritual site in Amritsar, India.",
+      "imageUrl": "https://assets.cntraveller.in/photos/6368e177a788c013ce0f6c13/16:9/w_1919,h_1080,c_limit/golden-temple-lead.jpg"
+    }
+  ],
+  "beaches": [
+    {
+      "name": "Bora Bora",
+      "description": "A paradise island in French Polynesia.",
+      "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/60/b0/bd/bora-bora.jpg?w=1400&h=1400&s=1"
+    },
+    {
+      "name": "Copacabana",
+      "description": "Famous beach in Rio de Janeiro, Brazil.",
+      "imageUrl": "https://lp-cms-production.imgix.net/2019-06/GettyImages-547005343_super.jpg?w=1920&h=640&fit=crop&crop=faces%2Cedges&auto=format&q=75"
+    }
+  ]
+}

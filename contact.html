@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us - TravelDream</title>
+</head>
+<body style="margin: 0; font-family: Arial, sans-serif;">
+
+  <header style="background-color: #0f2b2d; padding: 10px 20px; display: flex; align-items: center; justify-content: space-between; color: white;">
+    <div style="display: flex; align-items: center;">
+      <img src="bon voyage.avif" alt="TravelDream Logo" style="height: 30px; margin-right: 10px;">
+      <h1 style="font-size: 20px; font-family: serif; margin: 0;">TravelDream</h1>
+    </div>
+
+    <nav style="display: flex; gap: 20px;">
+      <a href="index.html" style="color: white; text-decoration: none; font-weight: bold;">Home</a>
+      <a href="about.html" style="color: white; text-decoration: none; font-weight: bold;">About Us</a>
+      <a href="contact.html" style="color: white; text-decoration: none; font-weight: bold;">Contact Us</a>
+    </nav>
+  </header>
+
+  <section style="position: relative; min-height: 100vh; background-image: url('paradise.jpg'); background-size: cover; background-position: center; color: white; padding: 80px 60px; display: flex; align-items: flex-start; gap: 60px;">
+
+    <div style="position: absolute; top: 50%; left: 20px; transform: translateY(-50%); display: flex; flex-direction: column; gap: 15px;">
+      <a href="#"><img src="twitter.png" alt="Twitter" style="width: 24px;"></a>
+      <a href="#"><img src="facebook.png" alt="Facebook" style="width: 24px;"></a>
+      <a href="#"><img src="instagram.png" alt="Instagram" style="width: 24px;"></a>
+      <a href="#"><img src="youtube.png" alt="YouTube" style="width: 24px;"></a>
+    </div>
+
+    <div>
+      <h1 style="font-size: 60px; font-weight: bold;">CONTACT US</h1>
+      <p>Get in touch</p>
+    </div>
+
+    <form style="background-color: rgba(0,0,0,0.5); padding: 30px; border-radius: 10px; max-width: 500px; width: 100%; display: flex; flex-direction: column; gap: 20px;">
+      <label for="name">Name</label>
+      <input type="text" id="name" placeholder="Enter your name" required
+        style="padding: 10px; border-radius: 5px; border: none; outline: none;"/>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" placeholder="Enter your email" required
+        style="padding: 10px; border-radius: 5px; border: none; outline: none;"/>
+
+      <label for="message">Message</label>
+      <textarea id="message" rows="6" placeholder="Type your message..." required
+        style="padding: 10px; border-radius: 5px; border: none; resize: vertical; outline: none;"></textarea>
+
+      <button type="submit"
+        style="padding: 12px; background-color: #01796f; color: white; border: none; border-radius: 5px; font-size: 16px; font-weight: bold; cursor: pointer;">
+        Submit
+      </button>
+    </form>
+  </section>
+
+</body>
+</html>
